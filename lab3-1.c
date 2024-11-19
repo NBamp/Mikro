@@ -66,7 +66,6 @@ void circuit(){
 
 	}
 }
-#ifdef USE_VERSION_2
 void GivenInputs(){
 	
 	for(int i=0;i<3;i++){
@@ -84,4 +83,9 @@ void GivenInputs(){
 		}
 	}
 }
-#endif
+
+int main(){
+
+	circuit();
+	GivenInputs();
+}
